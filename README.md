@@ -1,1 +1,3 @@
-# browser-rpg
+# Browser RPG
+
+TODO: Project description
