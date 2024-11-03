@@ -1,10 +1,9 @@
 import { FC } from "react"
+import { GameLayout } from "./ui/layouts"
 
 const App: FC = () => {
     return (
-        <>
-            <h1 className='text-3xl font-bold underline'>Hello World!</h1>
-        </>
+        <GameLayout SideBar={() => <></>} AppBar={() => <></>} Content={() => <></>} />
     )
 }
 
