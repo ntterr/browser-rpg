@@ -1,9 +1,9 @@
 import { FC } from "react"
-import { GameLayout } from "./ui/layouts"
+import { GamePage } from "./pages"
 
 const App: FC = () => {
     return (
-        <GameLayout SideBar={() => <></>} AppBar={() => <></>} Content={() => <></>} />
+        <GamePage />
     )
 }
 

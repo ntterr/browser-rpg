@@ -1,9 +1,9 @@
-import { FC, ReactElement } from "react";
+import { FC, ReactNode } from "react";
 
 interface PropTypes {
-    SideBar: () => ReactElement,
-    AppBar: () => ReactElement,
-    Content: () => ReactElement
+    SideBar: () => ReactNode,
+    AppBar: () => ReactNode,
+    Content: () => ReactNode
 }
 
 const GameLayout: FC<PropTypes> = ({ AppBar, Content, SideBar }) => {
